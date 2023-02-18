@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
     </div>
     <hr className="my-6 border-white sm:mx-auto" />
-    <span className="block text-sm text-white sm:text-center">© 3 <a href="/" className="hover:underline">Panaverse™</a>. All Rights Reserved.
+    <span className="block text-sm text-white sm:text-center">© 3 <Link href="/" className="hover:underline">Panaverse™</Link>. All Rights Reserved.
     </span>
     </footer>
         )
