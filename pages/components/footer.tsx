@@ -6,7 +6,7 @@ const Footer = () => {
     return (
     <footer className="p-4 bg-gradient-to-r from-teal-700 via-teal-900 to-black shadow-md shadow-cyan-900 md:px-6 md:py-8 relative inset-x-0 bottom-0">
     <div className="sm:flex sm:items-center sm:justify-between">
-        <a href="/" className="flex items-center mb-4 sm:mb-0">
+        <Link href="/" className="flex items-center mb-4 sm:mb-0">
         <Image
         src="/logo.png"
         alt="Picture of the author"
@@ -14,13 +14,13 @@ const Footer = () => {
         height={60}
         />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Panaverse</span>
-        </a>
+        </Link>
         <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0">
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
+                <Link href="#" className="mr-4 hover:underline md:mr-6 ">About</Link>
             </li>
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                <Link href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</Link>
             </li>
             <li>
                 <Link href="https://github.com/panaverse" className="mr-4 hover:underline md:mr-6 ">Github</Link>
